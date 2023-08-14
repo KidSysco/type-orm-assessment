@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /* Set your target ECMAScript version */,
+    "module": "CommonJS" /* Module system to use (CommonJS for Node.js) */,
+    "outDir": "./dist" /* Output directory for compiled JavaScript files */,
+    "rootDir": "./src" /* Source directory for TypeScript files */,
+    "strict": true /* Enable strict type-checking */,
+    "esModuleInterop": true /* Enable ES Module Interoperability */,
+    "skipLibCheck": true /* Skip type checking of declaration files */,
+    "forceConsistentCasingInFileNames": true /* Enforce consistent file casing */,
+    "resolveJsonModule": true /* Enable importing JSON modules */,
+    "declaration": true /* Generate declaration files (.d.ts) */,
+    "sourceMap": true /* Generate source map files (.js.map) */,
+    "emitDecoratorMetadata": true, // Added for TypeOrm
+    "experimentalDecorators": true, // Added for TypeOrm
+    "baseUrl": "./", // or your project's base directory
+    "paths": {
+      "*": ["src/*"] // or your source code directory
+    }
+  },
+  "include": ["src/**/*.ts"] /* List of files to include in compilation */,
+  "exclude": [
+    "node_modules"
+  ] /* List of files/folders to exclude from compilation */
+}
